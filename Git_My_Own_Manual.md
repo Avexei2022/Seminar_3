@@ -116,4 +116,9 @@ git commit
 
 git commit -m "Story 182: Fix benchmarks for speed"
 
+## 10. Пропуск области индексирования
+
+*Достаточно передать команде* git commit *параметр* -a, *и система Git начнет автоматически индексировать все отслеживаемые файлы перед их фиксацией, позволяя обойтись без команды* git add:
+
+git commit -a -m 'added new benchmarks'
 
